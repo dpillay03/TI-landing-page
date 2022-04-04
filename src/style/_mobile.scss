@@ -1,0 +1,30 @@
+@import 'util';
+@import 'components';
+
+@media (max-width: $breakpoint-mobile) {
+    /* HEADER */
+    .Header {
+        height: auto;
+        width: 100%;
+    #header-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: auto;
+            .header-column {
+              width: 90%;
+              margin: 0 auto;
+            }
+        }
+    }
+    .ContactForm {
+        width: 90%;
+    }
+
+    /* SERVICES */
+    #services {
+        .three-column-grid {
+            grid-template-columns: 1fr;
+        }    
+    }
+}

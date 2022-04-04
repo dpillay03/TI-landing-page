@@ -1,11 +1,14 @@
 import "../style/main.scss";
+import Header from "./Header";
+import Body from "./Body";
+import Footer from "./Footer";
 
-function App() {
+export default function App() {
   return (
     <div className='App'>
-      <h1>Let's Code!</h1>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
-
-export default App;

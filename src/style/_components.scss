@@ -1,10 +1,263 @@
 @import 'util';
 
+/* HEADER COMPONENT */
 
-@media (max-width: $breakpoint-mobile) {
-  
+.Header {
+    background-color:#2D394A;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    box-sizing: border-box;
+    height: 525px;
+    width: 100%;
+    #header-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 50px;
+        .header-column {
+          width: 80%;
+          margin: 0 auto;
+        }
+    }
+    #consultation-wrapper-mobile{
+        display: none;
+    //     margin-top: 100px;
+    //     #consultation-desc {
+    //     color: #454545;
+    //     font-family: Roboto;
+    //     font-size: 16px;
+    //     line-height: 25px;
+    // }
+    // #ul-checkmark {
+    //     list-style: none;
+    //     padding: 0px;
+    //     .list-checkmark {
+    //         color: #454545;
+    //         font-family: Roboto;
+    //         font-size: 16px;
+    //         letter-spacing: 0;
+    //         line-height: 25px;
+   
+    //     }
+    //   }
+      
+    //   #ul-checkmark,  .list-checkmark:before {
+    //     content: '✓';
+    //     color: #A1D9D3;
+    //   }
 }
-@media (min-width: $breakpoint-desktop) {
-  
+/* HEADER COLUMN - LEFT*/
+#logo {
+    height: 49.92px;
+    width: 215px;
+}
+#header-title {
+    height: 222px;
+    width: 584px;
+    color: #FFFFFF;
+    font-family: $header_font;
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 75px;
+}
+#header-subtitle {
+    height: 41px;
+    width: 584px;
+    color: #FFFFFF;
+    font-family: $body_font;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+.body-bold {
+    font-weight: $body-font-bold;
+}
+/* HEADER COLUMN - RIGHT */
+#header-phone {
+    text-align: right;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 26px;
 }
 
+}
+#divider {
+    box-sizing: border-box;
+    height: .5px;
+    width: 98%;
+    border: 1px solid #A2B9C2;
+    margin-top: 100px;
+}
+
+.ContactForm {
+    position: absolute;
+    top: 150px;
+    right: 75px;
+    height: 600px;
+    width: 450px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    #free {
+        text-align: center;
+        color: #CE427A;
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: 900;
+        margin-top: 50px;
+    }
+    #web-strategy-session {
+        text-align: center;
+        color: #2D394A;
+        font-family: "Playfair Display";
+        font-size: 36px;
+        font-weight: bold;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .input-wrapper {
+        width: 80%;
+        margin: 0 auto;
+    .input-field {
+        box-sizing: border-box;
+        margin: 0 auto;
+        display: block;
+        height: 46px;
+        width: 100%;
+        border: 1px solid #A2B9C2;
+        border-radius: 3px;
+    }
+    .input-label {
+        height: 25px;
+        width: 90%;
+        color: #454545;
+        font-family: Roboto;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 25px;
+    }
+}
+    #request-session {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        height: 45px;
+        width: 185px;
+        border-radius: 4px;
+        border: 0px solid white;
+        background-color: #2D394A;
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 25px;
+        text-align: center;
+        display: block;
+
+    }
+}
+
+/* Desktop Consultation Wrapper */
+#consultation-wrapper-desktop {
+    max-width: 600px;
+    margin-left: 50px;
+    #consultation-desc-desktop{
+        height: 126px;
+        color: #454545;
+        font-family: Roboto;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 25px;
+        padding: 0px;
+        #underline {
+            text-decoration: underline;
+        }
+    }
+}
+#ul-checkmark-desktop{
+    list-style: none;
+    padding: 0px;
+    .list-checkmark-desktop {
+        color: #454545;
+        font-family: Roboto;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 25px;
+        
+    }
+}
+#ul-checkmark-desktop,  
+.list-checkmark-desktop:before {
+    content: '✓';
+    font-weight: 500;
+    color: #A1D9D3;
+    margin-right: 10px;
+}
+
+/* SERVICES */
+#services-header {
+    height: 48px;
+    color: #2D394A;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 48px;
+    text-align: center;
+}
+
+/* Testimonial Headers */
+#testimonial-header {
+    text-align: center;
+    margin-top: 50px;
+    color: #454545;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.Carousel {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 100px;;
+    #left-arrow, #right-arrow {
+        margin-top: 15px;
+        width: 25px;
+    }
+    .testimonial {
+        width: 150px
+    }
+}
+
+/* Footer */
+.Footer {
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+    background-color: #2D394A;
+    #footer-logo {
+        width: 40px;
+        margin: 0 auto;
+        display: block;
+    }
+    #footer-text {
+        text-align: center;
+        height: 25px;
+
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 25px;
+    }
+}

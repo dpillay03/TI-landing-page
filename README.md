@@ -1,6 +1,6 @@
 # TI - Landing Page Challenge
 
-<!-- ADD SCREENSHOT OF FINAL IMAGE HERE  -->
+![trinity screenshot](./src/assets/trinity-screenshot.png)
 
 **Developer:** Daniel Pillay
 
@@ -16,26 +16,26 @@ Create a landing page based on company instructions and guidelines. Ensure it is
 
 ## To-Do
 
-[x] Create Repo
+- [x] Create Repo
 
-[x] Create React.JS client folder
+- [x] Create React.JS client folder
 
 > - [x] Install SCSS
 > - [x] Remove React template files/folders
 > - [x] Configure Files
 
-[ ] Design/develop Mobile layout
+[x] Design/develop Mobile layout
 
-> - [] Add content/components
+> - [x] Add content/components
 
-[ ] Design/develop Desktop layout
+- [x] Design/develop Desktop layout
 
-> - [] Add content/components
+> - [x] Add content/components
 
-[ ] Test Responsivity
+- [x] Test Responsivity
 
-[ ] Refactor Code
+- [x] Refactor Code
 
-[ ] Test
+- [x] Test
 
-[ ] Deploy
+- [x] Deploy

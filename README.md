@@ -6,9 +6,9 @@
 
 **Purpose:** Mock Landing Page for Trinity Insight. (Coding Challenge)
 
-**Built With:** HTML5, React, SCSS
+**Built With:** HTML5, React, SCSS, and React-Flickity
 
-**Deployed Link:** <!-- ADD DEPLOYED LINK  -->
+**Deployed Link:** [TI Coding Challenge](http://dpillay03.github.io/I-landing-page/).
 
 ## Requirements
 

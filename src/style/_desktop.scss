@@ -1,16 +1,16 @@
 @import 'util';
 
-/* HEADER COMPONENT */
+/* ----- HEADER COMPONENT ----- */
 .Header {
-    #header-phone-mobile {
-        visibility: hidden;
-    }
+    height: 555px;
+    width: 100%;
     background-color:#2D394A;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     box-sizing: border-box;
-    height: 555px;
-    width: 100%;
+    #header-phone-mobile {
+        visibility: hidden;
+    }
     #header-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,7 +24,7 @@
           margin: 0 auto;
         }
     }
-/* HEADER COLUMN - LEFT*/
+/* ----- HEADER COLUMN - LEFT ----- */
 #logo {
     height: 49.92px;
     width: 215px;
@@ -51,8 +51,9 @@
 .body-bold {
     font-weight: $body-font-bold;
 }
-/* HEADER COLUMN - RIGHT */
+/* ----- HEADER COLUMN - RIGHT ----- */
 #header-phone {
+    margin-top: 60px;
     text-align: right;
     color: #FFFFFF;
     font-family: Roboto;
@@ -63,39 +64,39 @@
 
 }
 #divider {
-    box-sizing: border-box;
     height: .5px;
     width: 98%;
-    border: 1px solid #A2B9C2;
     margin-top: 100px;
+    box-sizing: border-box;
+    border: 1px solid #A2B9C2;
 }
 
 .ContactForm {
     position: absolute;
-    top: 150px;
+    top: 200px;
     right: 75px;
     height: 600px;
     width: 450px;
+    padding: 10px;
     border-radius: 7px;
     background-color: #FFFFFF;
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
-    padding: 10px;
     #free {
+        margin-top: 50px;
         text-align: center;
         color: #CE427A;
         font-family: Roboto;
         font-size: 22px;
         font-weight: 900;
-        margin-top: 50px;
     }
     #web-strategy-session {
+        padding: 0px;
+        margin-top: 0px;
         text-align: center;
         color: #2D394A;
         font-family: "Playfair Display";
         font-size: 36px;
         font-weight: bold;
-        padding: 0px;
-        margin-top: 0px;
     }
     .input-wrapper {
         width: 80%;
@@ -140,7 +141,7 @@
     }
 }
 
-/* Desktop Consultation Wrapper */
+/* ----- Desktop Consultation Wrapper ----- */
 #consultation-wrapper-desktop {
     max-width: 600px;
     margin-left: 50px;
@@ -176,8 +177,6 @@
     color: #A1D9D3;
     margin-right: 10px;
 }
-
-/* SERVICES */
 #services-header {
     height: 48px;
     color: #2D394A;
@@ -189,7 +188,7 @@
     text-align: center;
 }
 
-/* Testimonial Headers */
+/* ----- Testimonial Headers ----- */
 .carousel  {
     visibility: hidden;
    display: none;
@@ -221,7 +220,7 @@
     }
 }
 
-/* Footer */
+/* ----- Footer -----  */
 .Footer {
     height: 80px;
     max-width: 100%;

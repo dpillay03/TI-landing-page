@@ -8,7 +8,7 @@
 
 **Built With:** HTML5, React, SCSS, and React-Flickity
 
-**Deployed Link:** [TI Coding Challenge](http://dpillay03.github.io/I-landing-page/).
+**Deployed Link:** [TI Coding Challenge](http://dpillay03.github.io/TI-landing-page/).
 
 ## Requirements
 

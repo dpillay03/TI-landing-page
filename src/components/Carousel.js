@@ -16,13 +16,43 @@ export default function Carousel() {
       {" "}
       <h3 id='testimonial-header'>TRUSTED BY:</h3>
       <div className='Carousel'>
-        <img src={left} id='left-arrow' className='testimonial' />
-        <img src={one} className='testimonial' />
-        <img src={two} className='testimonial' />
-        <img src={three} className='testimonial' />
-        <img src={four} className='testimonial' />
-        <img src={five} className='testimonial' />
-        <img src={right} id='right-arrow' className='testimonial' />
+        <img
+          src={left}
+          id='left-arrow'
+          className='testimonial'
+          alt='left arrow'
+        />
+        <img
+          src={one}
+          className='testimonial'
+          alt='desktop testimonial static'
+        />
+        <img
+          src={two}
+          className='testimonial'
+          alt='desktop testimonial static'
+        />
+        <img
+          src={three}
+          className='testimonial'
+          alt='desktop testimonial static'
+        />
+        <img
+          src={four}
+          className='testimonial'
+          alt='desktop testimonial static'
+        />
+        <img
+          src={five}
+          className='testimonial'
+          alt='desktop testimonial static'
+        />
+        <img
+          src={right}
+          id='right-arrow'
+          className='testimonial'
+          alt='right arrow'
+        />
       </div>
       <div>
         <Flickity
@@ -33,11 +63,31 @@ export default function Carousel() {
           reloadOnUpdate // default false
           static // default false
         >
-          <img src={one} className='testimonial-mobile' />
-          <img src={two} className='testimonial-mobile' />
-          <img src={three} className='testimonial-mobile' />
-          <img src={four} className='testimonial-mobile' />
-          <img src={five} className='testimonial-mobile' />
+          <img
+            src={one}
+            className='testimonial-mobile'
+            alt='mobile testimonial slider'
+          />
+          <img
+            src={two}
+            className='testimonial-mobile'
+            alt='mobile testimonial slider'
+          />
+          <img
+            src={three}
+            className='testimonial-mobile'
+            alt='mobile testimonial slider'
+          />
+          <img
+            src={four}
+            className='testimonial-mobile'
+            alt='mobile testimonial slider'
+          />
+          <img
+            src={five}
+            className='testimonial-mobile'
+            alt='mobile testimonial slider'
+          />
         </Flickity>
       </div>
     </div>

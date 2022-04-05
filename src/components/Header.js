@@ -8,6 +8,9 @@ export default function Header() {
         <div className='Header'>
           <div id='header-container'>
             <div className='header-column'>
+              <p id='header-phone-mobile'>
+                Give us a call! <span className='body-bold'>866-535-8807</span>
+              </p>
               <img src={logo} id='logo' alt='Trinity logo white' />
               <h1 id='header-title'>
                 Gain new insight to grow digital revenues faster.

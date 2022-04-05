@@ -1,22 +1,22 @@
 /* FONT */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /* MEDIA QUERIES */
 $breakpoint-mobile: 799px;
-$breakpoint-desktop: 800px;
+$breakpoint-desktop: 900px;
 
 /* VARIABLES */
 $header_font: 'Playfair Display', serif;
 $body_font: 'Roboto', sans-serif;
 $body-font-bold: "bolder";
-
+$body-font-regular: "300";
+/* Body */
 body {
     width: 100vw;
     padding: 0px;
     margin: 0px;
 }
-
 
 /* THREE COLUMN GRID */
 .three-column-grid {
@@ -69,7 +69,7 @@ body {
             margin-right: auto; 
             width: 100%;
             color: #454545;
-            font-family: Roboto;
+            font-family: $body_font;
             font-size: 16px;
             font-weight: bold;
             letter-spacing: 0;
@@ -85,7 +85,8 @@ body {
             margin-right: auto; 
             width: 100%;
             color: #454545;
-            font-family: Roboto;
+            font-family: $body_font;
+            font-weight: $body-font-regular;
             font-size: 14px;
             letter-spacing: 0;
             line-height: 25px;

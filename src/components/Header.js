@@ -1,5 +1,4 @@
 import React from "react";
-import ContactForm from "./ContactForm";
 import logo from "../assets/trinity-white.png";
 export default function Header() {
   return (
@@ -8,9 +7,12 @@ export default function Header() {
         <div className='Header'>
           <div id='header-container'>
             <div className='header-column'>
-              <p id='header-phone-mobile'>
-                Give us a call! <span className='body-bold'>866-535-8807</span>
-              </p>
+              <a href='tel:#'>
+                <p id='header-phone-mobile'>
+                  Give us a call!{" "}
+                  <span className='body-bold'>866-535-8807</span>
+                </p>
+              </a>
               <img src={logo} id='logo' alt='Trinity logo white' />
               <h1 id='header-title'>
                 Gain new insight to grow digital revenues faster.
